@@ -74,6 +74,11 @@ body {
   align-items: start;
 }
 
+.bio-column {
+  padding-left: 3rem;
+  border-left: 1px solid rgba(183, 156, 237, 0.35); /* light purple accent */
+}
+
 .profile-photo {
   width: 180px;
   height: 180px;
@@ -118,6 +123,10 @@ body {
   .social-links {
     justify-content: center;
   }
+  .bio-column {
+  border-left: none;
+  padding-left: 0;
+}
 }
 
 .theme-switch {
@@ -167,8 +176,5 @@ input:checked + .slider::before {
   letter-spacing: 0.02em;
 }
 
-.bio-column {
-  padding-left: 3rem;
-  border-left: 1px solid rgba(183, 156, 237, 0.35); /* light purple accent */
-}
+
 
