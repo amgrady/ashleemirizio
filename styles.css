@@ -159,3 +159,22 @@ body {
     display: none;
   }
 }
+
+/* Page layout */
+.page {
+  max-width: 720px;
+  padding: 4rem 3rem;
+}
+
+/* Active nav link */
+nav a.active {
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+/* Logo text fallback */
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
