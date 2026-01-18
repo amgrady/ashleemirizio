@@ -1,9 +1,12 @@
 const toggle = document.getElementById("theme-toggle");
 
-toggle.addEventListener("click", () => {
-  const current = document.documentElement.getAttribute("data-theme");
-  document.documentElement.setAttribute(
-    "data-theme",
-    current === "dark" ? "light" : "dark"
-  );
+// Default: dark mode, toggle unchecked
+toggle.checked = false;
+
+toggle.addEventListener("change", () => {
+  if (toggle.checked) {
+    document.documentElement.setAttribute("data-theme", "light");
+  } else {
+    document.documentElement.removeAttribute("data-theme");
+  }
 });
