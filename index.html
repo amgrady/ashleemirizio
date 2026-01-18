@@ -3,64 +3,73 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ashlee Mirizio | PhD Student</title>
+  <title>Ashlee Mirizio</title>
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome -->
   <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="site-header minimal">
+<header class="site-header">
   <div class="logo">
-    <svg width="40" height="40" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+    <svg width="42" height="42" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
       <rect width="48" height="48" fill="#111827"/>
       <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-            font-family="Inter, sans-serif"
-            font-size="20"
-            font-weight="600"
-            fill="#ffffff">AM</text>
+            font-size="20" font-weight="600" fill="#ffffff">AM</text>
     </svg>
   </div>
 
   <nav>
     <a href="index.html" class="active">About</a>
     <a href="publications.html">Publications</a>
+    <a href="cv.html">CV</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<main class="landing">
+<main class="about">
 
-  <h1>Ashlee Mirizio</h1>
+  <section class="profile">
+    <img src="profile.jpg" alt="Portrait of Ashlee Mirizio">
 
-  <p class="role">PhD Student</p>
+    <h1>Ashlee Mirizio</h1>
+    <div class="title">PhD Student</div>
 
-  <p class="affiliation">
-    Indiana University<br>
-    Luddy School of Informatics, Computing, and Engineering<br>
-    Informatics, Computing, Culture, and Society (CCS)
-  </p>
+    <div class="affiliation">
+      Indiana University<br>
+      Luddy School of Informatics, Computing, and Engineering<br>
+      Informatics – Computing, Culture, and Society (CCS)
+    </div>
 
-  <div class="social-links">
-    <a href="#" aria-label="Google Scholar">
-      <i class="fa-solid fa-graduation-cap"></i>
-    </a>
-    <a href="#" aria-label="ORCID">
-      <i class="fa-brands fa-orcid"></i>
-    </a>
-    <a href="#" aria-label="LinkedIn">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-    <a href="Ashlee_Mirizio_CV.pdf" class="cv-link">CV (PDF)</a>
-  </div>
+    <div class="social-buttons">
+      <a href="#"><i class="fa-solid fa-graduation-cap"></i> Scholar</a>
+      <a href="#"><i class="fa-brands fa-orcid"></i> ORCID</a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+      <a href="Ashlee_Mirizio_CV.pdf"><i class="fa-solid fa-file"></i> CV</a>
+    </div>
+  </section>
+
+  <section class="bio">
+    <p>
+      I am a PhD student in Informatics at Indiana University, where my work sits at the
+      intersection of computing, culture, and society.
+    </p>
+
+    <p>
+      My research explores how sociotechnical systems shape participation, power,
+      and lived experience, with a particular interest in design practices and values.
+    </p>
+
+    <p>
+      Through my work, I aim to contribute to more reflective, equitable, and
+      human-centered approaches to technology design and evaluation.
+    </p>
+  </section>
 
 </main>
 
