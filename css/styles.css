@@ -1,14 +1,15 @@
 :root {
-  --bg: #ffffff;
-  --text: #1f1f1f;
-  --accent: #b79ced;
-  --muted: #666;
-}
-
-[data-theme="dark"] {
+  /* DARK MODE DEFAULT */
   --bg: #121212;
   --text: #f2f2f2;
+  --accent: #b79ced;
   --muted: #aaa;
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #1f1f1f;
+  --muted: #666;
 }
 
 * {
