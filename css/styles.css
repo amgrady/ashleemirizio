@@ -253,3 +253,8 @@ a:focus-visible {
     font-size: 0.95rem;
     font-style: italic;
 }
+
+.pub-citation .author-me {
+    color: var(--accent) !important;
+    font-weight: 700;
+}
