@@ -298,3 +298,8 @@ a:focus-visible {
   color: var(--accent) !important;
   font-weight: 700 !important;
 }
+
+.highlight {
+    color: var(--accent);
+    font-weight: 600;
+}
