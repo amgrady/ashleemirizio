@@ -38,8 +38,10 @@ body {
 }
 
 .logo {
-  font-family: 'Inter', sans-serif;
-  font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: 0;
 }
 
 .nav-links {
