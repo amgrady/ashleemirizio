@@ -93,7 +93,28 @@ body {
 
 .bio-column {
   padding-left: 3rem;
-  border-left: 1px solid rgba(183, 156, 237, 0.35); /* light purple accent */
+  border-left: 1px solid rgba(183, 156, 237, 0.35);
+  max-width: 62ch;
+}
+
+.bio-section {
+  margin-bottom: 2rem;
+}
+
+.bio-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.bio-section p {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.advisor-list {
+  color: var(--accent);
+  font-weight: 500;
 }
 
 .profile-photo {
