@@ -92,11 +92,12 @@ body {
 }
 
 .bio-column {
-    border-left: 1px solid rgba(255, 255, 255, 0.12);
+    padding-left: 3rem;
+    border-left: 1px solid rgba(255,255,255,.12);
 }
 
 .bio-section {
-  margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .bio-section h2 {
