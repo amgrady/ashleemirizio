@@ -41,7 +41,12 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 1.35rem;
     font-weight: 600;
-    letter-spacing: 0;
+    color: var(--text);
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: var(--accent);
 }
 
 .nav-links {
