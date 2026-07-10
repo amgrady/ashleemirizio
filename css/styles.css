@@ -246,4 +246,10 @@ a:focus-visible {
     font-style: italic;
 }
 
-
+.section-subtitle {
+    margin-top: -0.75rem;
+    margin-bottom: 2rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+    font-style: italic;
+}
