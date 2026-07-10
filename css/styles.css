@@ -40,13 +40,23 @@ body {
 .logo {
     font-family: 'Inter', sans-serif;
     font-size: 1.35rem;
-    font-weight: 600;
+    font-weight: 700;
     color: var(--text);
     text-decoration: none;
+    letter-spacing: 0;
+}
+
+.logo:visited {
+    color: var(--text);
 }
 
 .logo:hover {
     color: var(--accent);
+    text-decoration: none;
+}
+
+.logo:focus {
+    text-decoration: none;
 }
 
 .nav-links {
