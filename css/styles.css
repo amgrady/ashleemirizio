@@ -254,7 +254,7 @@ a:focus-visible {
     font-style: italic;
 }
 
-.pub-citation .author-me {
-    color: var(--accent) !important;
-    font-weight: 700;
+.publications-page .pub-citation .author-me {
+  color: var(--accent) !important;
+  font-weight: 700 !important;
 }
