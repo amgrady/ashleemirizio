@@ -3,126 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ashlee Mirizio | About</title>
+  <title>Ashlee Mirizio</title>
 
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
-
-  <!-- Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-
   <link rel="stylesheet" href="css/styles.css" />
 </head>
-
 <body>
-<header class="site-header">
-  <nav class="nav">
-   <a href="index.html" class="logo">Ashlee Mirizio</a>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="logo">Ashlee Mirizio</a>
 
+      <ul class="nav-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
 
-    <ul class="nav-links">
-      <li><a href="index.html" class="active">About</a></li>
-      <li><a href="publications.html">Publications</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+      <label class="theme-switch" aria-label="Toggle light mode">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+      </label>
+    </nav>
+  </header>
 
-   <label class="theme-switch" aria-label="Toggle light mode">
-  <input type="checkbox" id="theme-toggle">
-  <span class="slider"></span>
-</label>
-    
-  </nav>
-</header>
+  <main class="home-page">
+    <section class="home-card">
+      <img src="assets/profile.jpg" alt="Portrait of Ashlee Mirizio" class="profile-photo" />
 
-<main class="about-container">
-  <section class="profile-column">
-    <img src="assets/profile.jpg" alt="Portrait of Ashlee Mirizio" class="profile-photo" />
+      <h1>Ashlee Mirizio</h1>
+      <p class="tagline">PhD Student in Informatics @ Indiana University, Bloomington</p>
+      <p class="tagline2">Focus: Computing, Culture, and Society</p>
 
-    <h1>Ashlee Mirizio</h1>
-    <p class="tagline">PhD Student in Informatics @ Indiana University, Bloomington </p>
-    <p class="tagline2"> Focus: Computing, Culture, and Society </p>
+      <div class="social-links">
+        <a href="https://orcid.org/0009-0000-8823-6066" target="_blank" rel="noopener noreferrer" aria-label="ORCID Profile">
+          <i class="fa-brands fa-orcid"></i>
+        </a>
 
-    <div class="social-links">
-  <!-- ORCID -->
-  <a href="https://orcid.org/0009-0000-8823-6066"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="ORCID Profile">
-    <i class="fa-brands fa-orcid"></i>
-  </a>
+        <a href="https://scholar.google.com/citations?user=mSU6a6AAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar Profile">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </a>
 
-  <!-- Google Scholar -->
-  <a href="https://scholar.google.com/citations?user=mSU6a6AAAAAJ&hl=en"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="Google Scholar Profile">
-    <i class="fa-solid fa-graduation-cap"></i>
-  </a>
+        <a href="https://www.linkedin.com/in/ashleemirizio" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
 
-  <!-- LinkedIn -->
-  <a href="https://www.linkedin.com/in/ashleemirizio"
-     target="_blank"
-     rel="noopener noreferrer"
-     aria-label="LinkedIn Profile">
-    <i class="fa-brands fa-linkedin"></i>
-  </a>
+        <a href="assets/cv.pdf" target="_blank" aria-label="Download Curriculum Vitae">
+          <i class="fa-solid fa-file-lines"></i>
+        </a>
 
-  <!-- Curriculum Vitae -->
-  <a href="assets/cv.pdf"
-     target="_blank"
-     aria-label="Download Curriculum Vitae">
-    <i class="fa-solid fa-file-lines"></i>
-  </a>
-
-  <!-- Email -->
-  <a href="mailto:amirizio@iu.edu"
-     aria-label="Email Ashlee Mirizio">
-    <i class="fa-solid fa-envelope"></i>
-  </a>
-</div>
-  </section>
-<section class="bio-column">
-
-    <section class="bio-section">
-        <h2>About</h2>
-
-        <p>
-            I am currently an Informatics PhD student at Indiana University's
-            Luddy School of Informatics, Computing, and Engineering in the
-            Computing, Culture, and Society (CCS) track. My background is in
-            business and technology, having previously worked as a management
-            consultant and in a technology company.
-        </p>
+        <a href="mailto:amirizio@iu.edu" aria-label="Email Ashlee Mirizio">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
     </section>
+  </main>
 
-    <section class="bio-section">
-        <h2>Research</h2>
-
-        <p>
-          Currently, I study the ideologies and logics that underpin various
-          Silicon Valley and AI subcultures, with a particular focus on how
-          these ideas move into popular culture.
-        </p>
-        <p>
-            I have also published on datafied and computational ways of knowing
-            in sensitive health domains and on the ways in which the metaphor
-            of "monoculture" has migrated into computing discourse.
-        </p>
-
-      <p>
-            I use a mixed-methods approach, drawing on science and technology
-            studies, critical AI studies, cultural studies, and history to
-            better understand contemporary computing cultures.
-        </p>
-        <p class="advisor-list">
-    I am advised by Nathan Ensmenger, Elizabeth Kaziunas, and Rachel Plotnick. </p>
-    </section>
-
-</section>
-</main>
-
-<script src="js/theme-toggle.js"></script>
+  <script src="js/theme-toggle.js"></script>
 </body>
 </html>
